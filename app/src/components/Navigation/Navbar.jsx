@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "./Navbar.module.css";
+import styles from "./navbar.module.css";
 import medifyLogo from "../../assets/medifyIcon.svg"; // Assuming you have a logo image
 import Button from "../Button/Button";
 
