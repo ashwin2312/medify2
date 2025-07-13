@@ -18,7 +18,6 @@ export default function HospitalCard({
   rating,
   cityName,
   stateName,
-
 }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedDate, setSelectedDate] = useState(dayjs());
