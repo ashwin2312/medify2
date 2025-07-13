@@ -1,0 +1,20 @@
+.container{
+    width: 1170px;
+    height: 429px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    /* border: 1px solid green; */
+    margin: auto;
+    margin-top: -3rem;
+
+    position: relative;
+    padding-bottom: 10px; /* Space for pagination */
+}
+.swiperPagination {
+  margin-top: 24px; /* Adds space below the slides */
+  text-align: center;
+  border: 1px solid red;
+}

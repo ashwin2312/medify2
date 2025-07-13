@@ -1,0 +1,26 @@
+.container{
+    height: 50px;
+    background: #2AA8FF;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 12px 36px 12px 36px;
+    color: white;
+    border: none;
+
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 2%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+button:hover{
+    background: #1A7BC2;
+    cursor: pointer;
+}

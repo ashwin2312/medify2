@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    width: 70rem;
+}
+.linkStyle{
+    list-style: none;
+    text-decoration: none;
+}
