@@ -48,6 +48,7 @@ export default function BookingInterface() {
       console.error("Error fetching hospitals:", error);
     }
   };
+  console.log("Hospital List::", hospitalList);
 
   // Call the functions to fetch data when the component mounts
   useEffect(() => {
@@ -94,12 +95,13 @@ export default function BookingInterface() {
             hospitalList.map((hospital, index) => (
               <HospitalCard
                 key={index}
-                hospitalName={hospital.hospitalName}
-                address={hospital.address}
-                city={hospital.city}
-                state={hospital.state}
+                hospitalName={hospital["Hospital Name"]}
+                address={hospital["Address"]}
+                city={hospital["City"]}
+                state={hospital["State"]}
                 phoneNumber={hospital.phoneNumber}
-                rating={hospital.rating}
+                rating={hospital["Hospital overall rating"]}
+                zipCode={hospital["ZIP Code"]}
               />
             ))
           ) : (
