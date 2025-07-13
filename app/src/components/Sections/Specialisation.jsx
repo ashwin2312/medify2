@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./specialisation.module.css"; // Assuming you have a CSS module for styling
 import Button from "../Button/Button";
-import DrugStore from "../../assets/DrugStore.svg";
+import DrugStore from "../../assets/Drugstore.svg";
 import Stethescope from "../../assets/Stethoscope.svg";
 import HeartRate from "../../assets/HeartRate.svg";
 import BloodTest from "../../assets/BloodSample.svg";
